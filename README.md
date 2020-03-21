@@ -1,2 +1,7 @@
 # ADF-Pay-Calculator
-Calculator programmed in java
+
+Calculator programmed in JAVA
+
+Using the GTerm library
+
+Still in Development
