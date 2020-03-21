@@ -1,14 +1,23 @@
-# ADF-Pay-Calculator
 
-Calculator programmed in JAVA
 
-Using the GTerm library
+*****************************************************************************
+                            # ADF-Pay-Calculator
+*****************************************************************************
 
-Still in Development
+STILL IN DEVELOPMENT
 
-Calculates Annual income with Allowances (Clothing / Seperation / SF etc)
-Calculates Tax both Annual and Fortnight.
+*****************************************************************************
 
-All you need to do is enter in values listed from your payslip to see exactly the figure that you should be getting.
+Features :
+  - Calculates Annual income with Allowances (Clothing / Seperation / SF etc)
+  - Calculates Tax both Annual and Fortnight.
+  
+*****************************************************************************
 
-Figures up to date as at 21stMarch 2020.
+How to use :
+  - All you need to do is enter in values listed from your payslip to see exactly the figure that you should be getting.
+  
+*****************************************************************************
+Updates :
+
+- Allowances up to date as at 21st March 2020.
