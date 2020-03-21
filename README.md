@@ -4,22 +4,22 @@
    # ADF Pay Calculator
 *****************************************************************************
 
-                            STILL IN DEVELOPMENT
+ STILL IN DEVELOPMENT
 
 *****************************************************************************
 
-  Features :
+ Features :
   
-    - Calculates Annual income with Allowances (Clothing / Seperation / SF etc)
-    - Calculates Tax both Annual and Fortnight.
+   - Calculates Annual income with Allowances (Clothing / Seperation / SF etc)
+   - Calculates Tax both Annual and Fortnight.
   
 *****************************************************************************
 
-  How to use :
+ How to use :
   
-    - All you need to do is enter in values listed from your payslip to see exactly the figure that you should be getting.
+   - All you need to do is enter in values listed from your payslip to see exactly the figure that you should be getting.
   
 *****************************************************************************
-  Updates :
+ Updates :
 
-    - Allowances up to date as at 21st March 2020.
+   - Allowances up to date as at 21st March 2020.
