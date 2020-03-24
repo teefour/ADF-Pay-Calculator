@@ -35,3 +35,4 @@ Issues :
 
    - Unable to calculate precise tax listed on payslip as it is rounded to nearest dollar.
    - Figures can be up to 10 dollars off actual figure listed in Pay Slip.
+   - No employer Super contribution calculations.
