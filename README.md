@@ -16,8 +16,9 @@
 *****************************************************************************
 
  How to use :
-  
-   - All you need to do is enter in values listed from your payslip to see exactly the figure that you should be getting.
+   1. Download .jar
+   2. Run .jar file
+   3. All you need to do is enter in values listed from your payslip to see exactly the figure that you should be getting.
   
 *****************************************************************************
  Updates :
