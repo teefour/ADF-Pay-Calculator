@@ -22,5 +22,6 @@
 *****************************************************************************
  Updates :
 
-   21 March 2020 - Allowances updated
-   24 March 2020 - Super contribution figures now correct
+   - 24 March 2020 - Super contribution figures now correct
+   - 21 March 2020 - Allowances updated
+
