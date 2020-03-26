@@ -27,8 +27,10 @@
 *****************************************************************************
  Updates :
 
+   - 26 March 2020 - Added ability to restart program on completion
    - 24 March 2020 - Super contribution figures now correct
    - 21 March 2020 - Allowances updated
+   
 
 *****************************************************************************
 Issues :
