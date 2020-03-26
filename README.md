@@ -1,10 +1,10 @@
 
 
 *****************************************************************************
-   # ADF Pay Calculator
+   # Australian ADF Pay Calculator
 *****************************************************************************
 
- STILL IN DEVELOPMENT
+ STILL IN DEVELOPMENT (Works for ARMY only at present)
 
 *****************************************************************************
 
@@ -38,3 +38,4 @@ Issues :
    - Unable to calculate precise tax listed on payslip as it is rounded to nearest dollar.
    - Figures can be up to 10 dollars off actual figure listed in Pay Slip.
    - No employer Super contribution calculations.
+   - Add AIRFORCE / NAVY Values.
