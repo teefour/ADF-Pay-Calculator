@@ -15,7 +15,7 @@ public class IncomeCalculator {
 			// Font sizing and positions
 			gt.setFontSize(35);
 			gt.setXY(130, 0);
-			gt.println("Army Pay Calculator\n");
+			gt.println("ADF Pay Calculator\n");
 			gt.setXY(30, 50);
 			gt.setFontSize(20);
 
@@ -31,9 +31,9 @@ public class IncomeCalculator {
 
 			double salary = Double.parseDouble(gt.getInputString("Annual base salary : "));
 
-			while (salary <= 1) {
-				salary = Double
-						.parseDouble(gt.getInputString("Error! Enter a valid salary. \n\nAnnual base salary : "));
+			while (salary <= 15000) {
+				gt.showMessageDialog("Error! Enter a valid salary.");
+				salary = Double.parseDouble(gt.getInputString("Annual base salary : "));
 			}
 
 			double serviceAllowance = serviceAllowanceUnit * 2919.9968;
@@ -48,8 +48,9 @@ public class IncomeCalculator {
 					.parseInt(gt.getInputString("Do you recieve Seperation Allowance? \n\n1 = YES\n2 = NO"));
 
 			while (ynSepAllowance <= 0 || ynSepAllowance >= 3) {
-				ynSepAllowance = Integer.parseInt(gt.getInputString(
-						"Error! Incorrect value entered.\nDo you recieve Seperation Allowance? \n\n1 = YES\n2 = NO"));
+				gt.showMessageDialog("Error! Incorrect value entered.");
+				ynSepAllowance = Integer
+						.parseInt(gt.getInputString("Do you recieve Seperation Allowance? \n\n1 = YES\n2 = NO"));
 			}
 
 			if (ynSepAllowance == 1) {
@@ -71,16 +72,17 @@ public class IncomeCalculator {
 					.parseInt(gt.getInputString("Do you live in Service Residence/On-base? \n\n1 = YES\n2 = NO"));
 
 			while (ServRes <= 0 || ServRes >= 3) {
-				ServRes = Integer.parseInt(gt.getInputString(
-						"Error! Incorrect value entered.\nDo you live in Service Residence/On-base? \n\n1 = YES\n2 = NO"));
+				gt.showMessageDialog("Error! Incorrect value entered.");
+				ServRes = Integer
+						.parseInt(gt.getInputString("Do you live in Service Residence/On-base? \n\n1 = YES\n2 = NO"));
 			}
 
 			if (ServRes == 1) {
 				int ynOnBase = Integer.parseInt(gt.getInputString("Do you live On-base ?\n\n1 = YES\n2 = NO"));
 
 				while (ynOnBase <= 0 || ynOnBase >= 3) {
-					ynOnBase = Integer.parseInt(gt.getInputString(
-							"Error! Incorrect value entered.\nDo you live On-base ?\n\n1 = YES\n2 = NO"));
+					gt.showMessageDialog("Error! Incorrect value entered.");
+					ynOnBase = Integer.parseInt(gt.getInputString("Do you live On-base ?\n\n1 = YES\n2 = NO"));
 				}
 
 				// Lives On-base
@@ -121,8 +123,9 @@ public class IncomeCalculator {
 			SFSupportTier = Double.parseDouble(gt.getInputString("Which SF tier do you recieve? (0 (none) or 1 or 2)"));
 
 			while (SFSupportTier <= -1 || SFSupportTier >= 3) {
-				SFSupportTier = Double.parseDouble(gt.getInputString(
-						"Error! Incorrect value entered.\nWhich SF tier do you recieve? (0 (none) or 1 or 2) \n"));
+				gt.showMessageDialog("Error! Incorrect value entered.");
+				SFSupportTier = Double
+						.parseDouble(gt.getInputString("Which SF tier do you recieve? (0 (none) or 1 or 2) \n"));
 			}
 
 			if (SFSupportTier == 0) {
@@ -143,8 +146,9 @@ public class IncomeCalculator {
 					.parseDouble(gt.getInputString("Enter the % of Super you contribute:\n5 = 5%\n7=7%\netc.."));
 
 			while (superRate <= 4 || superRate >= 11) {
-				superRate = Integer.parseInt(gt.getInputString(
-						"Error! Incorrect value entered.\nEnter the % of Super you contribute:\n5 = 5%\n7=7%\netc.."));
+				gt.showMessageDialog("Error! Incorrect value entered.");
+				superRate = Integer
+						.parseInt(gt.getInputString("Enter the % of Super you contribute:\n5 = 5%\n7=7%\netc.."));
 			}
 
 			if (superRate == 5) {
@@ -176,8 +180,9 @@ public class IncomeCalculator {
 					.parseInt(gt.getInputString("Do you have any before tax deductions?\n\n1 = YES\n2 = NO"));
 
 			while (ynBeforeTaxDeductions <= 0 || ynBeforeTaxDeductions >= 3) {
-				ynBeforeTaxDeductions = Integer.parseInt(gt.getInputString(
-						"Error! Incorrect value entered.\nDo you have any before tax deductions?\n\n1 = YES\n2 = NO"));
+				gt.showMessageDialog("Error! Incorrect value entered.");
+				ynBeforeTaxDeductions = Integer
+						.parseInt(gt.getInputString("Do you have any before tax deductions?\n\n1 = YES\n2 = NO"));
 			}
 
 			if (ynBeforeTaxDeductions == 1) {
@@ -278,6 +283,7 @@ public class IncomeCalculator {
 					.parseInt(gt.getInputString("Would you like to run this again?\n\n1 = YES\n2 = NO"));
 			if (restartProgram == 1) {
 				gt.clear();
+				gt.showMessageDialog("Program reset.");
 			}
 			// TEST AREA - Only use for testing figures.
 
