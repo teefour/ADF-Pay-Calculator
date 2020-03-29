@@ -7,7 +7,6 @@
  STILL IN DEVELOPMENT (Works for ARMY only at present)
 
 *****************************************************************************
-
  Features :
   
    - Calculates Annual income with Allowances (Clothing / Seperation / SF etc).
@@ -17,8 +16,8 @@
    - Displays both RA and DHA pay figures (Annually and Fortnightly).
    
 *****************************************************************************
-
  How to use :
+ 
    1.  Download .jar
    2.  Run .jar file
    3.  Enter in values listed from your payslip
@@ -34,9 +33,10 @@
    
 
 *****************************************************************************
-Issues :
+Issues/To do :
 
    - Unable to calculate precise tax listed on payslip as it is rounded to nearest dollar.
    - Figures can be up to 10 dollars off actual figure listed in Pay Slip.
    - No employer Super contribution calculations.
    - Add AIRFORCE / NAVY Values.
+   - Convert monolithic to modular.
