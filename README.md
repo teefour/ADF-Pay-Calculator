@@ -24,20 +24,20 @@
 -User Guide
 
 -Overview:
--The program is broken into 4 main areas (Selection, Employee, Allowance and Summary).
--This program is designed to calculate both yearly and fortnight payments for Australian Army personnel in the Signals Corps, primarily Information Systems Technicians (ECN 661), Communication Radio Operators (ECN 662) and Telecommunications Technicians (ECN 665).
+   -The program is broken into 4 main areas (Selection, Employee, Allowance and Summary).
+   -This program is designed to calculate both yearly and fortnight payments for Australian Army personnel in the Signals Corps, primarily Information Systems Technicians (ECN 661), Communication Radio Operators (ECN 662) and Telecommunications Technicians (ECN 665).
 
  
 -Rank Selection (Limited to 8 ranks) – Selection Area:
--To select your rank, press on the button that corresponds with the rank you want to select. Once you select the rank the text field will show the rank that is currently selected. Only ONE rank can be selected.
--SIG = Signaller (Straight out of training)
--PTE(P) = Private Proficient (1 Year out of training)
--LCPL = Lance Corporal
--CPL = Corporal
--CPL[1] = Corporal (1 Year in rank)
--CPL[2] = Corporal (2 Years in rank)
--SGT = Sergeant
--SGT[1] = Sergeant (1 Year in rank)
+   -To select your rank, press on the button that corresponds with the rank you want to select. Once you select the rank the text field will show the rank that is currently selected. Only ONE rank can be selected.
+   -SIG = Signaller (Straight out of training)
+   -PTE(P) = Private Proficient (1 Year out of training)
+   -LCPL = Lance Corporal
+   -CPL = Corporal
+   -CPL[1] = Corporal (1 Year in rank)
+   -CPL[2] = Corporal (2 Years in rank)
+   -SGT = Sergeant
+   -SGT[1] = Sergeant (1 Year in rank)
  
 -ECN Selection (Limited to 3 trades) – Selection Area:
 -Select the appropriate ECN (Employee Categorization Number). Once you select an ECN the text field will show the currently selected ECN. Only ONE trade can be selected.
