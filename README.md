@@ -40,7 +40,7 @@ Issues/To do :
    - Add RA for multi defence member households. (Supports only 1 member)
 
    *****************************************************************************
-Issues/To do :
+Fixed :
 
    - Fixed - Unable to calculate precise tax listed on payslip as it is rounded to nearest dollar.
    - Fixed - Figures can be up to 10 dollars off actual figure listed in Pay Slip.
