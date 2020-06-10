@@ -11,6 +11,7 @@
    - Calculates Tax (Annually and Fortnightly).
    - Calculates your Super Contribution based of % you have set.
    - Displays both RA and DHA pay figures (Annually and Fortnightly).
+   - Input and output (Save and load) list feature
    
 *****************************************************************************
  How to use :
